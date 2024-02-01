@@ -18,7 +18,7 @@ client.on(Events.ClientReady, () => {
   console.log("Bot is ready");
 });
 
-const prefix = "!";
+const prefix = "!"; // بريفكس البوت حقك
 
 client.on(Events.MessageCreate, async (message) => {
   const cmd = message.content.split(" ")[0];
